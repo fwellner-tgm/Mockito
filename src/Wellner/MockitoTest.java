@@ -39,15 +39,6 @@ public class MockitoTest {
 	public void tearDown() throws Exception {
 	}
 	
-	/** // mock creation <br>
-		// In der Liste mockedList "one" einfügen <br>
-		mockedList.add("one"); <br>
-		// MockedList clearen <br>
-		mockedList.clear(); <br>
-
-		// verify...überprüft ob die Aktion auf durchgeführt wurde
-		verify(mockedList).add("one");
-		verify(mockedList).clear(); */
 	@Test
 	public void testBehaviour() {
 
